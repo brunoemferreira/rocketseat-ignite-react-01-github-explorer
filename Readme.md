@@ -1,23 +1,38 @@
-## Snippets para uso no desenvolvimento
+# RocketSeat Ignite React ( Chapter I ) - GitHubExplorer
 
-rfc => Atalho para criar estrutura de função no javascript
+## 🔥 Sobre o Projeto
+Projeto desenvolvido nas aulas Iniciais do Ignite React onde consumimos a API de repositórios de um 
+usuário do GitHub e carregamos a mesma na tela com suas informações Básicas, a estrutura do projeto foi montada toda manualmente configurando Babel, WebPack, WebPack Dev Server, Source Maps e Fast Refresh por fim migrando tudo que foi feito em JavaScript para TypeScript.
 
-## Comandos para utilização do Git e GitHub
+## 🧰 Tecnologias Utilizadas
+* VSCode ( IDE )
+* WebPack
+* WebPack Dev Server
+* SASS
+* Source Maps
+* Fast Refresh
+* JavaScript
+* React
+* TypeScript
 
+## ⚙️ Rodando o Projeto
 ```bash
-# Apontando o repositorio local para o repositorio do github
-$ git remote add origin https://github.com/brunoemferreira/rocketseat-ignite-react-01-github-explorer.git
+# Clone este repositório
+$ git clone https://github.com/brunoemferreira/rocketseat-ignite-react-01-github-explorer.git
 
-# Estagiar os arquivos no git 
-$ git add .
+# Baixar as bibliotecas utilizadas no projeto
+$ yarn install
+ou 
+$ npm install
 
-# Commitar os arquivos
-$ git commit -m 'mensagem do commit'
-
-# enviar os arquivos para o github 
-$ git push -u origin main 
+# Rodando o Projeto
+$ yarn dev
+ou 
+$ npm dev
 
 ```
+⌨️ com ❤️ por [Bruno Eduardo](https://gist.github.com/brunoemferreira) 😊
+
 
 
 
