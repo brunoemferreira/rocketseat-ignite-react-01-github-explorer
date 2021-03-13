@@ -1,13 +1,17 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import RepositoryItem from './RepositoryItem';
 
 import '../styles/repositories.scss';
 
-
-
+interface Repository {
+  name: string;
+  id: number;
+  description: string;
+  html_url: string;
+}
 
 function RepositoryList() {
-  const [repositories, setRepositories] = useState([]);
+  const [repositories, setRepositories] = useState<Repository[]>([]);
   // useEffect recebe 2 parametros :  o primeiro é a função que eu quero executar o segundo
   // é quando vc quer executar a função
   useEffect(() => {
@@ -15,7 +19,6 @@ function RepositoryList() {
       .then(response => response.json())
       .then(data => setRepositories(data))
   }, []);
-
 
   return (
     <section className="repository-list">
