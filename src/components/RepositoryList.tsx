@@ -8,6 +8,7 @@ interface Repository {
   id: number;
   description: string;
   html_url: string;
+  language: string;
 }
 
 function RepositoryList() {

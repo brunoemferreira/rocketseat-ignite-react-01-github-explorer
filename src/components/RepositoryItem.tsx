@@ -3,16 +3,26 @@ interface RepositoryItemProps {
     name: String;
     description: string;
     html_url: string;
+    language: string;
   }
 }
 
 function RepositoryItem(props: RepositoryItemProps) {
   return (
-    <li>
-      <strong>{props.repository.name}</strong>
-      <p>{props.repository.description}</p>
-      <a href={props.repository.html_url}>Acessar Repositório</a>
-    </li>
+    <div className="container">
+      <li className="li-repository-item">
+        <div className="left">
+          <a href={props.repository.html_url}> <strong>{props.repository.name}</strong></a>
+          <p>{props.repository.description}</p>
+          <p id="language">{props.repository.language}</p>
+        </div>
+        <div className="right">
+          <a className="star"> ⭐ Star</a>
+          <p>Updated 2 days ago</p>
+        </div>
+      </li>
+      <hr />
+    </div>
   );
 }
 
