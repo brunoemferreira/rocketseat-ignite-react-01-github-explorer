@@ -15,6 +15,15 @@ usuário do GitHub e carregamos a mesma na tela com suas informações Básicas,
 * React
 * TypeScript
 
+## 🖼️ Imagens do Projeto
+
+<div align="center">
+
+<img src="./public/img1.png" alt="imagem do Projeto"/>
+
+</div>
+
+
 ## ⚙️ Rodando o Projeto
 ```bash
 # Clone este repositório
@@ -29,6 +38,9 @@ $ npm install
 $ yarn dev
 ou 
 $ npm dev
+
+# O projeto ira Rodar
+http://localhost:8080
 
 ```
 ⌨️ com ❤️ por [Bruno Eduardo](https://gist.github.com/brunoemferreira) 😊
