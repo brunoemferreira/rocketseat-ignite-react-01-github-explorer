@@ -7,7 +7,7 @@
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/brunoemferreira/rocketseat-ignite-react-01-github-explorer">
 </p>
 
-<p align="center">Curso Finalizado em : 13/03/2021</p>
+<p align="center">Finalizado em : 13/03/2021</p>
 
 ## 🔥 Sobre o Projeto
 Projeto desenvolvido nas aulas Iniciais do Ignite React onde consumimos a API de repositórios de um 
